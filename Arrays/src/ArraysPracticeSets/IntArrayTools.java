@@ -6,6 +6,10 @@ public class IntArrayTools {
 	
 		public static boolean isSorted(int[]numbers) { // method to sort numbers from smallest to largest
 			
+		
+		    	
+			
+			
 			
 			
 			for(int i = 0; i<numbers.length; i++) {
@@ -21,11 +25,13 @@ public class IntArrayTools {
 					
 			
 					}
+					return true;
 
 				}
 		
 			}
-			return true;
+			return false;
+			
 }
 		
 		
@@ -83,6 +89,26 @@ public class IntArrayTools {
 
 		    	
 		    }
+		
+		
+		public static boolean chopSearch(int[]numbers) {
+			int key = 3;
+			for (int n : numbers) {
+			      if (n == key) {
+			        return true;
+			        
+			  
+			      }
+			}
+			
+			
+			
+			
+			
+			
+			return false;
+			
+		}
 }
 
 

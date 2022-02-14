@@ -8,8 +8,9 @@ public class ArrayApp {
 		int[] numbers = {12,4,3,67,89,76};
 		System.out.println (Arrays.toString(numbers));
 		
-		IntArrayTools.isSorted(numbers);
+		boolean isSorted = IntArrayTools.isSorted(numbers);
 		
+		System.out.println("The array is sorted: " +  isSorted);
 		System.out.println("Sorted numbers from smallest to largest are: " + (Arrays.toString(numbers)));
 		
 		
@@ -27,6 +28,12 @@ public class ArrayApp {
 		
 		IntArrayTools.quickSort(nums, 0, size - 1);
 		System.out.println("Sorted numbers using QuickSort Algorithm : " + (Arrays.toString(nums)));
+		
+		
+		int key = 3;
+		boolean chopSearch = IntArrayTools.chopSearch(numbers);
+		System.out.println("Number is found using chopSearch: " + key + " " + chopSearch);
+	
 
 	
 	
