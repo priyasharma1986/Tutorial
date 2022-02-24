@@ -11,7 +11,7 @@ public class Snake {
 	}
 	
 	public void move() {
-		System.out.println("Python does not move in a curvy pattern but instead slithered along in a completely straight line.");
+		System.out.println("Python not only move in a curvy pattern but also slithered along in a completely straight line.");
 
 
 		

@@ -16,7 +16,7 @@ public class Fish {
 	}
 	
 	public void makeNoise() {
-		System.out.println("Fish doesn't make sound");
+		System.out.println("Fishes doesn't make sound");
 		
 	}
 	

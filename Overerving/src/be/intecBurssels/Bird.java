@@ -7,18 +7,18 @@ public class Bird extends Animal{
 	}
 	
 	public void Bird(String name){
-		super.setName("Lucy");
+		
 
 		
 	}
 
 	public void move() {
-		System.out.println("Parrot is flying.");
+		System.out.println("Bird is flying.");
 		
 	}
 	
 	public void makeNoise() {
-		System.out.println("Parrot is making weird sounds.");
+		System.out.println("Bird is making weird sounds.");
 		
 	}
 }
