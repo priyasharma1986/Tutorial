@@ -26,6 +26,15 @@ public class AndeanMountainCat extends Felis{
 		
 		}
 	
+	public  boolean setIsAlive(boolean alive ) {
+		return true;
+		
+	}
+	public boolean getIsAlive() {
+		return false;
+		
+	}
+	
 	
 	
 

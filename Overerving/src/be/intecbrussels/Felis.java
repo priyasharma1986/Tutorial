@@ -14,7 +14,6 @@ public  class Felis extends Animal{
 	
 	
 	{
-		
 				
 		vaccinationCount++;
 		
