@@ -1,17 +1,19 @@
 package be.intecbrussels;
 
-public class Animal {
+public abstract class Animal {
 
 	
 		
-		private static int animalCount;
 		private char size;
 		private char coat;
 		private String color;
 		private double weight;
 		
 		
-		{
+		protected static int animalCount;
+
+		
+		 {
 			animalCount++;
 			
 		}
@@ -48,9 +50,9 @@ public class Animal {
 			System.out.println("The animal is sleeping");
 		}
 		
-		public void  isAlive( boolean alive) {
+		public boolean  isAlive() {
+			return true;
 			
-			System.out.println("They are alive");
 			
 			
 		}
